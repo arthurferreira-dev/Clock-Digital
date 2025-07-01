@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); /* Roboto */
+
+:root {
+    --roboto-google: 'Roboto', Arial, Helvetica, Verdana, sans-serif;
+}
+
+/*
+    CSS Archive write by: @arthurferreira-dev
+    License: MIT License
+*/
+
+* { /* Reset Charset */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { /* Default Configs */
+    font-family: var(--roboto-google);
+    height: 100vh;
+    font-size: 1em;
+    background-color: #fff;
+}
+
+/* Titles */
+
+h1#title {
+    font-size: 2.65em;
+}
+
+h2#sub-title {
+    font-size: 1.65em;
+}
+
+section#titles {
+    text-align: center;
+    margin-top: 12px;
+    line-height: 3em;
+}
+
+/* Main Elements */
+
+main {
+    display: block;
+    margin: auto;
+    background-color: #e4e4e4;
+    padding: 6.5px;
+    border-radius: 5.6px;
+    width: 90%;
+}
+
+#line {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+h1#timer, h2#days {
+    text-align: center;
+}
