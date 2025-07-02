@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    h1#timer {
+        font-size: 3.65em;
+    }
+
+    h2#days {
+        font-size: 1.65em;
+    }
+
+    section#alerta {
+        font-size: 1.2em;
+    }
+}

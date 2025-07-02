@@ -19,7 +19,7 @@
 
 body { /* Default Configs */
     font-family: var(--roboto-google);
-    height: 100vh;
+    height: 100%;
     font-size: 1em;
     background-color: #fff;
 }
@@ -58,4 +58,52 @@ main {
 
 h1#timer, h2#days {
     text-align: center;
+}
+
+h1#timer {
+    font-size: 5.5em;
+    background-color: #d4d4d4;
+    border-top: none;
+    border-bottom: 2px solid #c3c3c3;
+    border-left: 2px solid #c3c3c3;
+    border-right: 2px solid #c3c3c3;
+    width: 90%;
+    margin: auto;
+}
+
+h2#days {
+    margin: auto;
+    font-size: 2em;
+    background-color: #fff;
+    border-top-left-radius: 5.6px;
+    border-top-right-radius: 5.6px;
+    padding: 3px;
+    width: 90%;
+}
+
+section#alerta {
+    text-align: center;
+    font-size: 1.45em;
+    color: #8a8a8a;
+}
+
+footer {
+    background-color: #e4e4e4;
+    margin-top: 32px;
+    padding: 6px;
+    color: #000;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: .40s;
+}
+
+a:hover {
+    text-decoration: underline;
 }
